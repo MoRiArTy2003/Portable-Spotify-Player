@@ -10,3 +10,5 @@ desktop.ini
 
 # Arduino temporary files
 *.tmp
+
+secrets.h
