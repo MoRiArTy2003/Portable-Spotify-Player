@@ -1,5 +1,5 @@
 #include <WiFi.h>
-#include <secrets.h>
+#include "../../config/secrets.h"
 
 void setup()
 {
@@ -13,7 +13,7 @@ void setup()
   Serial.println();
 
   Serial.println("Connecting to...");
-  Serial.println(ssid);
+  Serial.println(WIFI_SSID);
 
   WiFi.begin(WIFI_SSID,WIFI_PASSWORD);
 
