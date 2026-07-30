@@ -9,10 +9,9 @@ void setup() {
   connectWiFi();
 
   fetchGitHubAPI();
-  
 }
 
-void connectWiFi(){
+void connectWiFi() {
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
   Serial.print("Connecting");
@@ -25,7 +24,7 @@ void connectWiFi(){
   Serial.println("\nConnected");
 }
 
-void fetchGitHubAPI(){
+void fetchGitHubAPI() {
   HTTPClient http;
 
   http.begin("https://api.github.com");
