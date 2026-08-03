@@ -11,4 +11,8 @@ desktop.ini
 # Arduino temporary files
 *.tmp
 
+#Credentials
 secrets.h
+
+#Spotify Token
+token.json
